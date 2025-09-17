@@ -993,11 +993,3 @@ Module filtres
   
   XIncludeFile "mix.pbi"
 EndModule
-
-
-; IDE Options = PureBasic 6.30 beta 1 (Windows - x64)
-; CursorPosition = 954
-; FirstLine = 950
-; Folding = ----------
-; EnableXP
-; CompileSourceDirectory
