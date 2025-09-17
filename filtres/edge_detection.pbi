@@ -1501,10 +1501,3 @@ Procedure DoG(*param.parametre)
   FreeMemory(*blur1)
   FreeMemory(*blur2)
 EndProcedure
-
-; IDE Options = PureBasic 6.30 beta 1 (Windows - x64)
-; CursorPosition = 1503
-; FirstLine = 1464
-; Folding = -----------------------
-; EnableXP
-; CompileSourceDirectory
