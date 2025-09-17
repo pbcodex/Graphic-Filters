@@ -538,12 +538,3 @@ If OpenWindow(0, 0, 0, lg, ht, "test_filtres", #PB_Window_SystemMenu | #PB_Windo
   CloseWindow(0)
   
 EndIf
-
-
-
-; IDE Options = PureBasic 6.30 beta 1 (Windows - x64)
-; CursorPosition = 542
-; FirstLine = 503
-; Folding = ------------
-; EnableXP
-; CompileSourceDirectory
