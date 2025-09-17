@@ -2670,10 +2670,3 @@ Procedure OpticalBlur(*param.parametre)
 EndProcedure
 
 ;----------------
-
-; IDE Options = PureBasic 6.30 beta 1 (Windows - x64)
-; CursorPosition = 2664
-; FirstLine = 2633
-; Folding = -------------------------------------------
-; EnableXP
-; CompileSourceDirectory
