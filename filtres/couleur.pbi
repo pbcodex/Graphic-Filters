@@ -1473,9 +1473,3 @@ Procedure teinte(*param.parametre)
   EndIf
   filter_start(@teinte_MT() , 2)
 EndProcedure
-; IDE Options = PureBasic 6.30 beta 1 (Windows - x64)
-; CursorPosition = 1474
-; FirstLine = 1435
-; Folding = --------------------------
-; EnableXP
-; CompileSourceDirectory
