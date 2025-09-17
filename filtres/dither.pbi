@@ -824,13 +824,3 @@ EndProcedure
 Procedure LiteDither(*param.parametre)
   dither(@FilterLiteDither_MT(), "LiteDither")
 EndProcedure
-
-
-
-
-; IDE Options = PureBasic 6.30 beta 1 (Windows - x64)
-; CursorPosition = 829
-; FirstLine = 790
-; Folding = ----------
-; EnableXP
-; CompileSourceDirectory
