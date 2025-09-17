@@ -1307,10 +1307,3 @@ Procedure deform_Bend(*param.parametre)
 EndProcedure
 
 ;-----------------------
-
-
-
-; IDE Options = PureBasic 6.30 beta 1 (Windows - x64)
-; Folding = -------------------
-; EnableXP
-; CompileSourceDirectory
