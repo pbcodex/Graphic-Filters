@@ -1,4 +1,4 @@
-﻿UseGIFImageDecoder()
+UseGIFImageDecoder()
 UseJPEG2000ImageDecoder()
 UseJPEG2000ImageEncoder()
 UseJPEGImageDecoder()
@@ -327,24 +327,23 @@ DeclareModule filtres
   DeclareModule_filtresadd_function(FalseColour , #Filter_FalseColour)
   DeclareModule_filtresadd_function(PencilImage , #Filter_PencilImage)
   
-  ;DeclareModule_filtresadd_function(GlowEffect_IIR , #Filter_GlowEffect_IIR)
-  ;DeclareModule_filtresadd_function(Emboss , #Filter_Emboss)
-  ;DeclareModule_filtresadd_function(FakeHDR , #Filter_Fake_Hdr)
-  ;DeclareModule_filtresadd_function(pencil , #Filter_pencil)
-  ;DeclareModule_filtresadd_function(CharcoalImage , #Filter_CharcoalImage)
-  ;DeclareModule_filtresadd_function(RaysFilter , #Filter_RaysFilter)
-  ;DeclareModule_filtresadd_function(Histogram , #Filter_Histogram)
+  DeclareModule_filtresadd_function(GlowEffect_IIR , #Filter_GlowEffect_IIR)
+  DeclareModule_filtresadd_function(Emboss , #Filter_Emboss)
+  DeclareModule_filtresadd_function(FakeHDR , #Filter_Fake_Hdr)
+  DeclareModule_filtresadd_function(pencil , #Filter_pencil)
+  DeclareModule_filtresadd_function(CharcoalImage , #Filter_CharcoalImage)
+  DeclareModule_filtresadd_function(Histogram , #Filter_Histogram)
   
-  ;DeclareModule_filtresadd_function(Diffuse , #Filter_Diffuse)
-  ;DeclareModule_filtresadd_function(Emboss_bump , #Filter_Emboss_bump)
-  ;DeclareModule_filtresadd_function(Mosaic , #Filter_Mosaic)
-  ;DeclareModule_filtresadd_function(HexMosaic , #Filter_HexMosaic)
-  ;DeclareModule_filtresadd_function(IrregularHexMosaic , #Filter_IrregularHexMosaic)
-  ;DeclareModule_filtresadd_function(Glitch , #Filter_Glitch)
-  ;DeclareModule_filtresadd_function(Kaleidoscope , #Filter_Kaleidoscope)
-  ;DeclareModule_filtresadd_function(FlowLiquify ,  #Filter_FlowLiquify)
-  ;DeclareModule_filtresadd_function(DisplacementMap , #Filter_DisplacementMap)
-  ;DeclareModule_filtresadd_function(Dilate , #Filter_Dilate)
+  DeclareModule_filtresadd_function(Diffuse , #Filter_Diffuse)
+  DeclareModule_filtresadd_function(Emboss_bump , #Filter_Emboss_bump)
+  DeclareModule_filtresadd_function(Mosaic , #Filter_Mosaic)
+  DeclareModule_filtresadd_function(HexMosaic , #Filter_HexMosaic)
+  DeclareModule_filtresadd_function(IrregularHexMosaic , #Filter_IrregularHexMosaic)
+  DeclareModule_filtresadd_function(Glitch , #Filter_Glitch)
+  DeclareModule_filtresadd_function(Kaleidoscope , #Filter_Kaleidoscope)
+  DeclareModule_filtresadd_function(FlowLiquify ,  #Filter_FlowLiquify)
+  DeclareModule_filtresadd_function(DisplacementMap , #Filter_DisplacementMap)
+  DeclareModule_filtresadd_function(Dilate , #Filter_Dilate)
   ;;DeclareModule_filtresadd_function(mettalic_effect , #Filter_mettalic_effect)
   
   ;DeclareModule_filtresadd_function(Convolution3x3,#Filter_Convolution3x3)
@@ -957,31 +956,13 @@ Module filtres
   XIncludeFile "dither.pbi"
   XIncludeFile "couleur.pbi"
   XIncludeFile "deform.pbi"
+  XIncludeFile "autre.pbi"
+  XIncludeFile "fx.pbi"
   
-  
-  ;XIncludeFile "autre\Glow_IIR.pbi"
-  ;XIncludeFile "autre\Emboss.pbi"
-  ;XIncludeFile "autre\Fake_Hdr.pbi"
-  ;XIncludeFile "autre\pencil.pbi"
-  ;XIncludeFile "autre\CharcoalImage.pbi"
-  ;XIncludeFile "autre\RaysFilter.pbi"
-  ;XIncludeFile "autre\Histogram.pbi"
-  
-  ;XIncludeFile "fx\Diffuse.pbi"
-  ;XIncludeFile "fx\Emboss_bump.pbi"
-  ;XIncludeFile "fx\Mosaic.pbi"
-  ;XIncludeFile "fx\HexMosaic.pbi"
-  ;XIncludeFile "fx\IrregularHexMosaic.pbi"
-  ;XIncludeFile "fx\Glitch.pbi"
-  ;XIncludeFile "fx\Kaleidoscope.pbi"
-  ;XIncludeFile "fx\FlowLiquify.pbi"
-  ;XIncludeFile "fx\DisplacementMap.pbi"
-  ;XIncludeFile "fx\Dilate.pbi"
   ;XIncludeFile "fx\mettalic_effect.pbi"
   
   ;XIncludeFile "Convolution\Convol3x3.pbi"
   
-
   ;XIncludeFile "Color_Space\RgbToYuv.pbi"
   ;XIncludeFile "Color_Space\YUVtoRGB.pbi"
   ;XIncludeFile "Color_Space\RGB_YUV_Modif.pbi"
@@ -993,3 +974,4 @@ Module filtres
   
   XIncludeFile "mix.pbi"
 EndModule
+
